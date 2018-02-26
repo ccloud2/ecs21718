@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center" class=". bg secondary">
+  <button type="button" class="btn btn-outline-primary" scr="https://en.wikipedia.org/wiki/Chameleon">Wikipedia</button>
+  <button type="button" class="btn btn-outline-primary" src="https://www.youtube.com/watch?v=KJtaIqahi3I&t=6s">Youtube</button>
+  <button type="button" class="btn btn-outline-primary" src="https://www.petsmart.com/learning-center/reptile-care/chameleon-care-guide/A0316.html">Chameleon Care</button>
+  <h1>Chameleons</h1>
+  <p>Chamaeleonidae</p> 
+</div>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">  
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#section1">Chameleons</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#section2">Chamaeleonidae</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#section3">Youtube</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Videos about Chameleons
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#section41">https://www.youtube.com/watch?v=SQggDnScsvI</a>
+        <a class="dropdown-item" href="#section42">https://www.youtube.com/watch?v=Zf34k0kh0uQ</a>
+      </div>
+    </li>
+  </ul>
+</nav>
+
+
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+  <ul class="navbar-nav">
+    <li class="nav-item Active">
+      <a class="nav-link" href="#">More About Chameleons</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Youtube</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Wikipedia</a>
+    </li>
+  </ul>
+</nav>
+  
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+  </style>
+</head>
+<body>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://i.ytimg.com/vi/SQggDnScsvI/maxresdefault.jpg" alt="Chameleon1" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="https://flchams.com/wp-content/uploads/2015/06/Driskel.jpg" alt="Chameleon2" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="http://cdn0.wideopenpets.com/wp-content/uploads/2016/01/veiled-chameleon.jpg" alt="Chameleon3" width="1100" height="500">
+    </div>
+  </div>
+
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+  
+<div class="container" class=".bg -light">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Fun Fact #1:</h3>
+      <p>There are many different types of chameleons.</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      <img src="http://blog.martymagic.com/wp-content/uploads/2015/05/panther-chameleon-200x200.jpg" class="img-rounded" alt="Chameleon #3">
+    </div>
+    <div class="col-sm-4">
+      <h3>Fun Fact #2:</h3>
+      <p>The scientific name for chameleons is: "chamaeleonidae".</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      <img src="http://www.veiledchameleoncaresheet.com/img/veiled-chameleon.jpg" alt="Chameleon #3">
+    </div>
+    <div class="col-sm-4">
+      <h3>Fun Fact #3:</h3>        
+      <p>Some types of chameleons can't change color; whereas other types can.</p>
+      <img src="https://www.chameleonforums.com/data/xengallery/167/167754-9ba30f69dc65b1816b20180711f318bb.jpg" class="img-rounded" alt="Chameleon #3">
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Little more About Chameleons...</button>
+  <div id="demo" class="collapse">
+<p>Chameleons are also known as Chamaeleonidae. Some Chameleons can change color; however, others can't.</p>
+  </div>
+</div>
+
+</body>
+</html>
