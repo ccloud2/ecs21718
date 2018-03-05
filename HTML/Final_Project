@@ -186,6 +186,9 @@ body {
     
     
     
+    
+    
+    
     <div class="col-sm-4">
       <h3>3rd to Top Selling Shoe:</h3>        
       <p><font color="green">Adidas NMD_R1</font></p>
@@ -211,7 +214,6 @@ body {
   </div>
       </div>
     </div>
-    <p><font color="blue">Cost:</font></p>
       
       
     </div>
